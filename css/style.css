@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: medium;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Tampilan awal */
+.title {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.sub-title {
+  margin-top: 25px;
+  font-size: 21px;
+}
+
+.fill {
+  text-align: justify;
+  line-height: 30px;
+  color: #1f1e1e;
+}
+
+.fill sup {
+  font-size: 13px;
+}
+
+.mb {
+  margin-bottom: 30px;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color:  #2bcece;
+  color: #f6ffeb;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #218b8b;
+}
+
+.btn-reset {
+  background-color: #f6ffeb;
+  border: 1px solid #9c9a9a;
+  color: #161515;
+}
+
+.btn-reset:hover {
+  background-color: #c3c2c2;
+}
+
+.d-hidden {
+  display: none;
+}
+
+.error {
+  color:  #ff0000;
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.container {
+  margin: 30px 5%;
+}
+
+.form {
+  background-color: #e6e2e2ce;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.form .form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form .form-input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #0c0b0b;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #c3c2c2;
+  appearance: none;
+}
+
+.form .input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.form .input-group-gender {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: stretch;
+  width: 100%;
+}
+
+.form .input-group > .form-input {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+}
+
+.form .input-group-desc,
+.form .input-group-icon {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #f6ffeb;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid;
+}
+
+.form .input-group-desc {
+  background-color: #2bcece;
+  border-color: #2bcece;
+  border-radius: 0 5px 5px 0;
+}
+
+.form .input-group-icon {
+  background-color: #c3c2c2;
+  border-color: #c3c2c2;
+  border-radius: 5px 0 0 5px;
+}
+
+.features {
+  margin-left: 20px;
+  line-height: 30px;
+  color: #1f1e1e;
+}
+
+/* tampilan keluaran */
+.sub-container {
+  background-color: #dbdbdbd3;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-title {
+  font-size: 18px;
+}
+
+.result-bmi {
+  font-size: 40px;
+}
+
+.result-desc {
+  margin: 10px 0 20px;
+  font-size: 15px;
+}
+
+.button-apk {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.list-detail {
+  list-style: none;
+  text-align: center;
+}
+
+.download-apk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.img {
+  width: 140px;
+  cursor: pointer;
+  border-radius: 8px;
+}
